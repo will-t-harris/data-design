@@ -5,3 +5,8 @@ body {
 a {
 	display: block;
 }
+
+img {
+	height: auto;
+	width: 250px;
+}

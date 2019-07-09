@@ -9,9 +9,9 @@
 
 		<h2>User Story</h2>
 
-		<p>As a power user I want to post a property for rent to the housing section</p>
+		<p>As a power user I want to delete a listing that has been filled.</p>
 
-		<h2>Use Case</h2>
+		<h2>Use Case / Interaction Flow</h2>
 
 		<p>Patty has filled a property vacancy, and needs to take down her ad.</p>
 
