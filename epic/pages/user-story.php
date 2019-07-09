@@ -1,1 +1,1 @@
-<h1>Test</h1>
+<p>She should be able to post a property for rent to the housing section of Craigslist.</p>
