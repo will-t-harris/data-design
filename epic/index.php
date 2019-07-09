@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>Phase 1 Index</title>
-		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/style.css" type="text/css">
 	</head>
 	<body>
 		<h1>Phase 1 Index</h1>
