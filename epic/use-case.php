@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Patty's Persona</title>
+		<title>Patty's Use Case</title>
 		<link rel="stylesheet" href="styles/style.css" type="text/css">
 	</head>
 	<body>
