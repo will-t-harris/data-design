@@ -14,6 +14,7 @@
 
 <ul>
 	<li>Patty clicks on the active section in the 'find your postings' section viewed on logging into Craigslist</li>
+	<li>Site brings Patty to a table view listing all of her ads.</li>
 	<li>Under the 'manage' column, Patty selects delete</li>
 	<li>Her listing has been deleted</li>
 </ul>
