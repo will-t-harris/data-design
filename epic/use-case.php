@@ -12,8 +12,8 @@
 
 <p>postcondition: Patty has taken down her ad.</p>
 
-<ol>
+<ul>
 	<li>Patty clicks on the active section in the 'find your postings' section viewed on logging into Craigslist</li>
 	<li>Under the 'manage' column, Patty selects delete</li>
 	<li>Her listing has been deleted</li>
-</ol>
+</ul>
