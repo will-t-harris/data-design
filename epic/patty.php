@@ -20,10 +20,21 @@
 					<li>Knows how to correspond via email</li>
 				</ul>
 			</li>
-			<li>Mostly accesses the website via desktop computer, though light mobile use as well.</li>
+			<li>Mode of Craigslist access:
+				<ul>
+					<li>85% desktop</li>
+					<li>15% mobile device</li>
+				</ul>
+			</li>
 			<li>Skeptical of technology, but recognizes that she needs to use it to find tenants in the 21<sup>st</sup> century</li>
-			<li>She uses the site solely to list properties for rent and to find potential tenants.  This is the need the application aims to fill: she needs tenants for her properties, Craigslist can put her in touch with potential tenants.</li>
-			<li>She chooses to use Craigslist because of the wide user-base, because of it's visual simplicity, and because she can easily understand how to make listings.</li>
+			<li>She uses the site solely to list properties for rent and to find potential tenants.  This is the need the application aims to fill.</li>
+			<li>Reasons she chooses Craigslist:
+				<ul>
+					<li>Wide user-base</li>
+					<li>Visual simplicity</li>
+					<li>Easily understood work-flow</li>
+				</ul>
+			</li>
 		</ul>
 	</body>
 </html>
