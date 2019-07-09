@@ -13,6 +13,8 @@
 		<ul>
 			<li>Female, mid-50's</li>
 			<li>Patty is a rental property owner</li>
+			<li>Skeptical of technology, but recognizes that she needs to use it to find tenants in the 21<sup>st</sup> century</li>
+			<li>She uses the site solely to list properties for rent and to find potential tenants.  This is the need the application aims to fill in her case.</li>
 			<li>Patty has a very basic understanding of the internet:
 				<ul>
 					<li>Loosely knows how to upload pictures to websites</li>
@@ -26,8 +28,6 @@
 					<li>15% mobile device</li>
 				</ul>
 			</li>
-			<li>Skeptical of technology, but recognizes that she needs to use it to find tenants in the 21<sup>st</sup> century</li>
-			<li>She uses the site solely to list properties for rent and to find potential tenants.  This is the need the application aims to fill.</li>
 			<li>Reasons she chooses Craigslist:
 				<ul>
 					<li>Wide user-base</li>
