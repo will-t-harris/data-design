@@ -8,7 +8,12 @@
 
 <p>Patty has filled a property vacancy, and needs to take down her ad.</p>
 
-<p>precondition: Patty is logged into her Craigslist account.</p>
+<p>precondition: Patty has just logged into her Craigslist account.</p>
 
 <p>postcondition: Patty has taken down her ad.</p>
 
+<ol>
+	<li>Patty clicks on the active section in the 'find your postings' section viewed on logging into Craigslist</li>
+	<li>Under the 'manage' column, Patty selects delete</li>
+	<li>Her listing has been deleted</li>
+</ol>
