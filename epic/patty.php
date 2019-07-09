@@ -5,7 +5,9 @@
 		<link rel="stylesheet" href="styles/style.css" type="text/css">
 	</head>
 	<body>
-		<h1>Persona</h1>
+		<h1>Persona: Patty</h1>
+
+		<img src="patty.jpg">
 
 		<ul>
 			<li>The users name is <b>Patty</b>.  She would be a <b>power user</b> on Craigslist.</li>
