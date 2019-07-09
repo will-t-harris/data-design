@@ -1,1 +1,1 @@
-<p>She should be able to post a property for rent to the housing section of Craigslist.</p>
+<p>As a power user I want to post a property for rent to the housing section</p>
