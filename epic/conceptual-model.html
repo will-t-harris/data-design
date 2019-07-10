@@ -10,7 +10,7 @@
 		<br>
 		<h2 class="conceptual-subheadings">Entities & Attributes</h2>
 		<br>
-		<h3>User</h3>
+		<h3>User (strong entity)</h3>
 		<ul>
 			<li>userId (primary key)</li>
 			<li>userHash (user password)</li>
@@ -19,7 +19,7 @@
 			<li>userPhoneNumber</li>
 		</ul>
 		<br>
-		<h3>Post</h3>
+		<h3>Post (strong entity)</h3>
 		<ul>
 			<li>postId (primary key)</li>
 			<li>postStatus</li>
@@ -33,7 +33,7 @@
 		<h2 class="conceptual-subheadings">Relations</h2>
 		<ul>
 			<li>One <strong>User</strong> can have many <strong>Posts</strong> <em>(1 to n)</em></li>
-			<li>Each <strong>Post</strong> can be from only one <strong>User</strong></li>
+			<li>Each <strong>Post</strong> can be from only one <strong>User</strong> <em>(n to 1)</em></li>
 		</ul>
 	</body>
 </html>
