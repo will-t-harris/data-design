@@ -36,8 +36,8 @@ CREATE TABLE post (
 	postArea VARCHAR(128) NOT NULL,
 	postTitle VARCHAR(70) NOT NULL,
 	postCategory VARCHAR(32) NOT NULL,
-	postDate DATETIME(17) NOT NULL,
-	postExpiration DATETIME(17) NOT NULL,
+	postDate DATETIME(6) NOT NULL,
+	postExpiration DATETIME(6) NOT NULL,
 	postContent VARCHAR(65539) NOT NULL,
 	-- unique keys for post entity
 	UNIQUE(postUserId),
