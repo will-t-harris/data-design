@@ -2,7 +2,9 @@
 ALTER DATABASE wharris21 CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 -- These statements drop the tables and re-add them
-
+DROP TABLE IF EXISTS post;
+DROP TABLE IF EXISTS postStatus;
+DROP TABLE IF EXISTS user;
 
 -- CREATE TABLE statement for user entity
 CREATE TABLE user (
