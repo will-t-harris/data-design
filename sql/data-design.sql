@@ -18,8 +18,12 @@ CREATE TABLE user (
 	PRIMARY KEY(userId)
 );
 
+-- CREATE TABLE statement for postStatus entity
 CREATE TABLE postStatus (
-
+	postStatusId BINARY(16) NOT NULL,
+	postStatusState VARCHAR(8),
+	-- primary key for postStatus entity
+	PRIMARY KEY(postStatusId)
 );
 
 -- CREATE TABLE statement for post entity
