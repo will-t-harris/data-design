@@ -18,19 +18,26 @@ CREATE TABLE user (
 	PRIMARY KEY(userId)
 );
 
+CREATE TABLE postStatus (
+
+);
+
 -- CREATE TABLE statement for post entity
 CREATE TABLE post (
 	postId BINARY(16) NOT NULL,
 	postUserId BINARY(16) NOT NULL,
 	postPostStatusId BINARY(16) NOT NULL,
-	postArea VARCHAR(?) NOT NULL,
+	postArea VARCHAR(128) NOT NULL,
 	postTitle VARCHAR(70) NOT NULL,
-	postCategory VARCHAR(?),
+	postCategory VARCHAR(32) NOT NULL,
 	postDate DATETIME(17) NOT NULL,
 	postExpiration DATETIME(17) NOT NULL,
 	postContent VARCHAR(65539) NOT NULL,
 	-- unique keys for post entity
 	UNIQUE(postUserId),
 	UNIQUE(postPostStatusId),
+	UNIQUE(postTitle),
 	-- foreign keys for post entity
+	FOREIGN KEY(postUserId) REFERENCES user(userId),
+	FOREIGN KEY(postPostStatusId) REFERENCES postStatus(postStatusId)
 );
