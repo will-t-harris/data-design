@@ -8,15 +8,15 @@ DROP TABLE IF EXISTS user;
 
 -- CREATE TABLE statement for user entity
 CREATE TABLE user (
-   userId BINARY(16) NOT NULL,
-   userHash CHAR(97) NOT NULL,
-   userLocation CHAR(20),
-   userEmail VARCHAR(128) NOT NULL,
-   userPhoneNumber VARCHAR(32),
-   -- unique keys -- these prevent duplicate data
-   UNIQUE(userEmail),
-   UNIQUE(userPhoneNumber),
-   -- primary key for user entity
+	userId BINARY(16) NOT NULL,
+	userHash CHAR(97) NOT NULL,
+	userLocation CHAR(20),
+	userEmail VARCHAR(128) NOT NULL,
+	userPhoneNumber VARCHAR(32),
+	-- unique keys -- these prevent duplicate data
+	UNIQUE(userEmail),
+	UNIQUE(userPhoneNumber),
+	-- primary key for user entity
 	PRIMARY KEY(userId)
 );
 
