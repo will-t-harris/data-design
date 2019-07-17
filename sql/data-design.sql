@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS user;
 CREATE TABLE user (
 	userId BINARY(16) NOT NULL,
 	userHash CHAR(97) NOT NULL,
-	userLocation CHAR(20),
+	userLocation VARCHAR(20),
 	userEmail VARCHAR(128) NOT NULL,
 	userPhoneNumber VARCHAR(32),
 	-- unique keys -- these prevent duplicate data
